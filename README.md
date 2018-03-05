@@ -42,6 +42,11 @@ features to your application.
   <p style="text-align: justify; text-indent: 3em;">
     Agora, digite o comando php yii serve no seu terminal. Em seguida irá aparecer a mensagem que seu projeto já estar startado no http://localhost:8080. Agora basta abrir seu navegador e digitar na url localhost:8080.
   </p>
+  <p>
+    Dados do super administrador para logar no sistema<br>
+    Login: 755.184.420-17<br>
+    Senha: 123
+  </p>
   <p style="text-align: justify; text-indent: 3em;">
     Pronto!
   </p>
