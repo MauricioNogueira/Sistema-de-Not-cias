@@ -17,40 +17,36 @@ features to your application.
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
 [![Build Status](https://travis-ci.org/yiisoft/yii2-app-basic.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-basic)
 
-<div>
-  <h2 align="center">Informações</h2>
-  <p>
-    Versão do PHP: 7.1.1<br>
-    Versão do Yii: 2.0
-  </p>
-  <h2 align="center">Iniciando o sistema</h2>
-  <p style="text-align: justify; text-indent: 3em;">
-    Antes de começar é necessário instalar o composer, caso não tenha, <a href="https://getcomposer.org/download/">clique aqui</a> para baixar.
-  </p>
-  <p style="text-align: justify; text-indent: 3em;">
-    Depois de ter instalado o composer, starta seu apache e o mysql, em seguida baixe o projeto e mova para a pasta do seu servidor local.
-  </p>
-  <p style="text-align: justify; text-indent: 3em;">
-    Agora você deve abrir seu gerenciador de banco de dados, crie um banco de dados chamado world_news, pois este nome está configurado no arquivo db.php que se encontra na pasta config do projeto. Lá você configura o seu username, password e o nome do banco que será usado. 
-  </p>
-  <p style="text-align: justify; text-indent: 3em;">
-    Abra seu terminal e vá para o diretório do projeto.
-  </p>
-  <p style="text-align: justify; text-indent: 3em;">
-    Depois de ter criado o banco de dados e configurado, crie uma pasta chamada rbac no diretório do projeto para armazenar as configurações de autenticação e autorização, em seguida, você deve inserir as tabelas no banco de dados. O framework yii tem um comando na qual ele transforma as classes que se encontra na pasta migrations do projeto em tabelas, se seu banco de dados não possui nenhuma tabela basta usar o comando yii migrate no seu terminal, ele vai começar a gerar as tabelas. Em seguida, digite yes e aperte a tecla enter para dar continuidade. Agora basta verificar seu banco de dados, verá que as tabelas foram criadas. Na tabela usuários já possui um usuário padrão que configurei para entrar no sistema. Este usuário é o super administrador do sistema. Se caso queria resetar as tabelas, antes você deve excluir dois arquivos que se encontra na pasta rbac do projeto, exclua os arquivos items.php e assignments.php, em seguida use o comando yii migrate/fresh e vá confirmando as perguntas, depois de ter confirmado as tabelas serão excluídas e geradas logo em seguida.
-  </p>
-  <p style="text-align: justify; text-indent: 3em;">
-    Agora, digite o comando php yii serve no seu terminal. Em seguida irá aparecer a mensagem que seu projeto já estar startado no http://localhost:8080. Agora basta abrir seu navegador e digitar na url localhost:8080.
-  </p>
-  <p>
-    Dados do super administrador para logar no sistema<br>
-    Login: 755.184.420-17<br>
-    Senha: 123
-  </p>
-  <p style="text-align: justify; text-indent: 3em;">
-    Pronto!
-  </p>
-  <p style="text-align: justify; text-indent: 3em;">
-    Meu e-mail: mauricio.nogueiraa@gmail.com
-  </p>
-</div>
+
+## Informações
+  
+Versão do PHP: 7.1.1
+Versão do Yii: 2.0
+  
+## Iniciando o sistema
+  
+Antes de começar é necessário instalar o composer, caso não tenha, <a href="https://getcomposer.org/download/">clique aqui</a> para baixar.
+  
+  
+Depois de ter instalado o composer, starta seu apache e o mysql, em seguida baixe o projeto e mova para a pasta do seu servidor local.
+  
+  
+Agora você deve abrir seu gerenciador de banco de dados, crie um banco de dados chamado world_news, pois este nome está configurado no arquivo db.php que se encontra na pasta config do projeto. Lá você configura o seu username, password e o nome do banco que será usado. 
+  
+Abra seu terminal e vá para o diretório do projeto.
+  
+Depois de ter criado o banco de dados e configurado, crie uma pasta chamada rbac no diretório do projeto para armazenar as configurações de autenticação e autorização, em seguida, você deve inserir as tabelas no banco de dados. O framework yii tem um comando na qual ele transforma as classes que se encontra na pasta migrations do projeto em tabelas, se seu banco de dados não possui nenhuma tabela basta usar o comando yii migrate no seu terminal, ele vai começar a gerar as tabelas. Em seguida, digite yes e aperte a tecla enter para dar continuidade. Agora basta verificar seu banco de dados, verá que as tabelas foram criadas. Na tabela usuários já possui um usuário padrão que configurei para entrar no sistema. Este usuário é o super administrador do sistema. Se caso queria resetar as tabelas, antes você deve excluir dois arquivos que se encontra na pasta rbac do projeto, exclua os arquivos items.php e assignments.php, em seguida use o comando yii migrate/fresh e vá confirmando as perguntas, depois de ter confirmado as tabelas serão excluídas e geradas logo em seguida.
+  
+  
+Agora, digite o comando php yii serve no seu terminal. Em seguida irá aparecer a mensagem que seu projeto já estar startado no http://localhost:8080. Agora basta abrir seu navegador e digitar na url localhost:8080.
+  
+  
+Dados do super administrador para logar no sistema
+Login: 755.184.420-17
+Senha: 123
+  
+  
+Pronto!
+  
+  
+Meu e-mail: mauricio.nogueiraa@gmail.com
